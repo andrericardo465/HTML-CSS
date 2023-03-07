@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>.</title>
+		
+		<style>
+			body {
+				text-align: center;
+				padding: 100px;
+			}
+ 
+			.quebra-linha {
+				border: solid 1px #ccc;
+				padding: 20px;
+				width: 300px;
+			}
+ 
+			.nao-quebra-linha {
+				border: solid 1px #ccc;
+				padding: 20px;
+				width: 300px;
+				white-space: nowrap;
+			}
+ 
+			.nao-quebra-linha-overflow {
+				border: solid 1px #ccc;
+				padding: 20px;
+				width: 300px;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+ 
+			.h2-demo {
+				text-align: left;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h2 class="h2-demo" style="color:green">Exemplo com white-space: normal</h2>
+		<div class="quebra-linha">
+			O texto escrito aqui quebra a linha automaticamente de acordo com o tamanho...
+		</div>
+ 
+		<br><br>
+ 
+		<h2 class="h2-demo" style="color:blue">Exemplo com white-space: nowrap</h2>
+		<div class="nao-quebra-linha">
+			O texto escrito aqui NÃO quebra a linha automaticamente de acordo com o tamanho...
+		</div>
+ 
+		<br><br>
+ 
+		<h2 class="h2-demo" style="color:red">Exemplo com white-space: nowrap e overflow:hidden</h2>
+		<div class="nao-quebra-linha-overflow">
+			O texto escrito aqui NÃO quebra a linha automaticamente de acordo com o tamanho...
+		</div>
+	</body>
+</html>

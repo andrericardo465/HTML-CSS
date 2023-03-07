@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    background-color: #999999;
+    margin: 10px;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav{
+    width: auto;
+    height: 10px;
+    background-color: #8f8d8d;
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 5px;
+    color: #0000ff;
+    margin: 15px;
+}
+
+nav > a:hover {
+    color: red;
+}
+
+article{
+    background-color: #8f8d8d;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+main.urgentes{
+    background-color: aliceblue;
+}
+
+main.diaria{
+    background-color: antiquewhite;
+}

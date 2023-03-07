@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: grey;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 5px 5px 10px black;
+}
+
+h1 {
+    color: red;
+    text-shadow : 10px 10px 10px black;
+}

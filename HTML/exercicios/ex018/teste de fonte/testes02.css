@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    color: #ff0000;
+    background-color: rgb(109, 97, 57);
+  }
+
+  .image {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    text-transform: uppercase;
+    /* imagem de fundo */
+    background-image: url('https://i.pinimg.com/736x/03/90/b5/0390b5300d484ea4d1da1cbd5adc6025.jpg');
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+  }
+  
+   .image::selection,
+   .gradient::selection {
+      color: #fff;
+      background: #8406d6
+    }
+
+  p{
+    
+    font-family: 'Fredericka the Great', cursive;
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(77, 76, 76);
+}

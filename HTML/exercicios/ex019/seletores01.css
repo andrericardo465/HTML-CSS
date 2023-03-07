@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é 'id' = Em CSS é #
+    em HTML é 'class' = em CSS é . 
+*/
+
+body{
+    background-color: #696969;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: #d1d1d1;
+}
+h1#principal{
+    text-align: center;
+    background-color: #313131;
+}
+
+h2{
+    color: #A8A8A8;
+}
+
+.basico{
+    color: #000000;
+}
+
+.int{
+    
+    font-weight: normal;
+    text-align: justify;
+    /* fundo gradiente */
+    background-image: linear-gradient(#000000,#363636, #ffffff);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+}
+
+.avanç{   
+
+        font-weight: normal;
+        text-align: justify;
+        /* fundo gradiente */
+        background-image: linear-gradient(#ff0000, #e2a22b,#fbff00, #51ff00, #00fff2, #001aff, #ae00ff, #ff00ea);
+        /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* a cor do texto deve estar como transparent */
+        color: transparent;
+}
